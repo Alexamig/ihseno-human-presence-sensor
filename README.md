@@ -1,19 +1,28 @@
 ![Circuit](extras/ogjjs81y.png)
+# Zigbee конвертер для датчика присутствия iHseno Human Presence Sensor
 
-# Конвертер для датчика присутствия iHseno (Zigbee)
-Конвертер для интеграции датчика присутствия iHseno Human Presence Sensor в систему Zigbee.
+[![GitHub license](https://img.shields.io/github/license/yourusername/ihseno-presence-sensor-converter)](LICENSE)
+[![Zigbee2MQTT](https://img.shields.io/badge/Zigbee2MQTT-supported-blue)](https://www.zigbee2mqtt.io/)
 
-## Информация об устройстве
-- Модель: TS0601 _TZE284_debczeci
-- Производитель: Tuya
-- Описание: Датчик присутствия с измерением уровня батареи, регулировкой чувствительности PIR и времени задержки
+Конвертер для интеграции датчика присутствия iHseno Human Presence Sensor (модель `_TZE284_debczeci`) с Zigbee2MQTT.
 
-## Основные функции
-- Обнаружение присутствия людей
+## Поддерживаемые устройства
+- iHseno Human Presence Sensor (AliExpress: [ссылка](https://aliexpress.ru/item/1005009110929003.html))
+
+## Особенности
+- Обнаружение присутствия человека
 - Отображение уровня заряда батареи
 - Настройка чувствительности PIR (низкая/средняя/высокая)
-- Настройка времени задержки (15с/30с/60с)
+- Настройка времени задержки PIR (15с/30с/60с)
 
-## Поддерживаемые системы
-- Zigbee2MQTT
-- Другие системы на базе zigbee-herdsman
+## Установка
+1. Скопируйте файл `tuya_tze284_pir.js` в папку `\external_converters\` вашей установки Zigbee2MQTT
+2. Перезапустите Zigbee2MQTT
+
+## Поддерживаемые функции
+| Функция | Описание |
+|---------|----------|
+| `presence` | Обнаружение присутствия (true/false) |
+| `battery` | Уровень заряда батареи в % |
+| `pir_sensitivity` | Чувствительность датчика (low/middle/high) |
+| `pir_time` | Время задержки (15s/30s/60s) |
