@@ -1,4 +1,4 @@
-![Circuit](extras/ogjjs81y.png)
+![Circuit](extras/ogjjs81y.png)                ![Circuit](extras/wd5ta6pj33.png)    
 # Zigbee конвертер для датчика присутствия iHseno Human Presence Sensor
 
 [![GitHub license](https://img.shields.io/github/license/yourusername/ihseno-presence-sensor-converter)](LICENSE)
