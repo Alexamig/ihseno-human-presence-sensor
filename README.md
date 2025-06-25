@@ -1,4 +1,4 @@
-![Circuit](extras/ogjjs41y.png)
+![Circuit](extras/ogjjs81y.png)
 
 # Конвертер для датчика присутствия iHseno (Zigbee)
 Конвертер для интеграции датчика присутствия iHseno Human Presence Sensor в систему Zigbee.
