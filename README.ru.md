@@ -1,5 +1,5 @@
 ﻿![Circuit Diagram](extras/ogjjs81y.png)                ![Device Photo](extras/wd5ta6pj33.png)
-# Zigbee конвертер для датчика присутствия iHseno Human Presence Sensor
+# Zigbee конвертер для iHseno Human Presence Sensor
 
 [English](README.md)
 
