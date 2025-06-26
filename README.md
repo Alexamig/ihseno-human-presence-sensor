@@ -30,7 +30,7 @@ Converter for integrating the iHseno Human Presence Sensor (model `_TZE284_debcz
 | `presence` | Presence detection (true/false) |
 | `battery` | Battery level in percentage |
 | `pir_sensitivity` | PIR sensitivity (low/medium/high) |
-| `pir_time` | PIR delay time (15s/30s/60s) |
+| `pir_time` | PIR delay time (15s/30s/60s)    Attention: delay time due to improper software does not correspond to the real choice |
 
 ## Example Zigbee2MQTT Configuration
 ```yaml
