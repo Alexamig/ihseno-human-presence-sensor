@@ -1,6 +1,10 @@
 ![Circuit Diagram](extras/ogjjs81y.png)                ![Device Photo](extras/wd5ta6pj33.png)
 
+
+
 # Zigbee Converter for iHseno Human Presence Sensor
+
+[Русский](README.ru.md) | [English](README.md)
 
 [![GitHub license](https://img.shields.io/github/license/yourusername/ihseno-presence-sensor-converter)](LICENSE)
 [![Zigbee2MQTT](https://img.shields.io/badge/Zigbee2MQTT-supported-blue)](https://www.zigbee2mqtt.io/)
