@@ -7,6 +7,7 @@
 [![Zigbee2MQTT](https://img.shields.io/badge/Zigbee2MQTT-supported-blue)](https://www.zigbee2mqtt.io/)
 
 Конвертер для интеграции датчика присутствия iHseno Human Presence Sensor (модель `_TZE284_debczeci`) с Zigbee2MQTT.
+## Конвертер уже не актуален. Отправлено на публикацию и был добавлен в Zigbee2MQTT
 
 ## Поддерживаемые устройства
 - iHseno Human Presence Sensor (AliExpress: [ссылка](https://aliexpress.ru/item/1005009110929003.html))
@@ -28,5 +29,6 @@
 | `battery` | Уровень заряда батареи в % |
 | `pir_sensitivity` | Чувствительность датчика (low/middle/high) |
 | `pir_time` | Время задержки (15s/30s/60s)  Внимание: время задержки из-за неправильного програмного обеспечения не соответствуют реальному выбору |
+
 
 
