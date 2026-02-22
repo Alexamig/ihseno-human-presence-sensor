@@ -11,6 +11,8 @@
 
 Converter for integrating the iHseno Human Presence Sensor (model `_TZE284_debczeci`) with Zigbee2MQTT.
 
+## The converter is no longer relevant. It was submitted for publication and added to Zigbee2MQTT.
+
 ## Supported Devices
 - iHseno Human Presence Sensor ([AliExpress Link](https://www.aliexpress.com/item/1005009110929003.html))
 
